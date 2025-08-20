@@ -167,7 +167,7 @@ class SageMakerLLM(LLM):
             model_kwargs=model_kwargs,
             content_handler=content_handler,
             profile_name=profile_name,
-            region_name=region_name,
+            region_name=aws_region_name,
             aws_access_key_id=aws_access_key_id,
             aws_secret_access_key=aws_secret_access_key,
             aws_session_token=aws_session_token,
